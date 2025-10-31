@@ -46,6 +46,8 @@ sudo apt install exiftool -y
 ```bash
 exiftool image.jpg
 ```
+<img width="814" height="532" alt="image" src="https://github.com/user-attachments/assets/59b41d42-e8ec-47c2-ab51-63f68c5eafa4" />
+
 - **Batch process a folder:**
 ```bash
 exiftool -r /path/to/folder
@@ -72,6 +74,7 @@ sudo apt install steghide -y
 ```
 steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/secret.txt
 ```
+<img width="913" height="118" alt="image" src="https://github.com/user-attachments/assets/02d20a70-062c-4159-982c-b16450f6f740" />
 
 
 - **Extract hidden data:**
@@ -79,6 +82,7 @@ steghide embed -cf /home/kali/Downloads/wallpaper.jpg -ef /home/kali/Downloads/s
 steghide extract -sf hidden.jpg
 
 ```
+<img width="637" height="123" alt="image" src="https://github.com/user-attachments/assets/07248951-59f5-478f-869c-5ce352595f4e" />
 
 
 ### Using binwalk – for file analysis
@@ -89,6 +93,7 @@ binwalk suspicious.jpg
 ```bash
 binwalk /home/kali/Downloads/wallpaper.jpg
 ```
+<img width="844" height="215" alt="image" src="https://github.com/user-attachments/assets/c9e9a7f1-5c48-418c-9141-8e2914cc1010" />
 
 
 ## RESULT:
